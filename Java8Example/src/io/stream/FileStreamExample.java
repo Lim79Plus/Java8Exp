@@ -16,7 +16,9 @@ public class FileStreamExample {
 		Path path = Paths.get("C:\\xxx\\Documents\\tmp\\test.txt");
 		
 		try{
+			//read file
 			Files.lines(path).distinct()
+			//print out each text line
 			.forEach(s->System.out.println(s));
 		}catch(IOException e){
 			Logger.getLogger(FileStreamExample.class.getName())
