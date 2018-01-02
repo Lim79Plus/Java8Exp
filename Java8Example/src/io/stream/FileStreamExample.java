@@ -11,7 +11,7 @@ public class FileStreamExample {
 
 	public static void main(String[] args) {
 
-		//write your txt path with windows
+		//write your text path with windows
 		//you should write the path with escape "\"
 		Path path = Paths.get("C:\\xxx\\Documents\\tmp\\test.txt");
 		
